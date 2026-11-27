@@ -29,7 +29,7 @@ public:
     }
 
     /// Removes and returns the oldest value, or std::nullopt if empty.
-    [[nodiscard]] std::optional<T> pop() {
+    [[nodiscard]] auto pop() -> std::optional<T> {
         if (empty()) {
             return std::nullopt;
         }
