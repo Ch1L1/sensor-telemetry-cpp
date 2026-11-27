@@ -1,0 +1,62 @@
+{
+  "tests": 10,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "RingBufferTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "NewBufferIsEmpty",
+          "file": "\/Users\/tomashomola\/projects\/sensor-telemetry-cpp\/tests\/ring_buffer_test.cpp",
+          "line": 13
+        },
+        {
+          "name": "PushPopPreservesFifoOrder",
+          "file": "\/Users\/tomashomola\/projects\/sensor-telemetry-cpp\/tests\/ring_buffer_test.cpp",
+          "line": 21
+        },
+        {
+          "name": "WrapAroundKeepsOrder",
+          "file": "\/Users\/tomashomola\/projects\/sensor-telemetry-cpp\/tests\/ring_buffer_test.cpp",
+          "line": 34
+        },
+        {
+          "name": "RepeatedWrapAroundManyCycles",
+          "file": "\/Users\/tomashomola\/projects\/sensor-telemetry-cpp\/tests\/ring_buffer_test.cpp",
+          "line": 51
+        },
+        {
+          "name": "PushToFullBufferFailsAndKeepsContents",
+          "file": "\/Users\/tomashomola\/projects\/sensor-telemetry-cpp\/tests\/ring_buffer_test.cpp",
+          "line": 60
+        },
+        {
+          "name": "CapacityOneBoundary",
+          "file": "\/Users\/tomashomola\/projects\/sensor-telemetry-cpp\/tests\/ring_buffer_test.cpp",
+          "line": 73
+        },
+        {
+          "name": "PopFromEmptyReturnsNullopt",
+          "file": "\/Users\/tomashomola\/projects\/sensor-telemetry-cpp\/tests\/ring_buffer_test.cpp",
+          "line": 83
+        },
+        {
+          "name": "ZeroCapacityThrows",
+          "file": "\/Users\/tomashomola\/projects\/sensor-telemetry-cpp\/tests\/ring_buffer_test.cpp",
+          "line": 93
+        },
+        {
+          "name": "SupportsMoveOnlyTypes",
+          "file": "\/Users\/tomashomola\/projects\/sensor-telemetry-cpp\/tests\/ring_buffer_test.cpp",
+          "line": 97
+        },
+        {
+          "name": "StoresSensorPackets",
+          "file": "\/Users\/tomashomola\/projects\/sensor-telemetry-cpp\/tests\/ring_buffer_test.cpp",
+          "line": 106
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/CMakeFiles/ring_buffer_test.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/CMakeFiles/test.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/CMakeFiles/edit_cache.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/CMakeFiles/rebuild_cache.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/CMakeFiles/test.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/CMakeFiles/edit_cache.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/CMakeFiles/rebuild_cache.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/googlemock/CMakeFiles/test.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/googlemock/CMakeFiles/edit_cache.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/googlemock/CMakeFiles/rebuild_cache.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/googletest/CMakeFiles/test.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/googletest/CMakeFiles/edit_cache.dir
+/Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-build/googletest/CMakeFiles/rebuild_cache.dir

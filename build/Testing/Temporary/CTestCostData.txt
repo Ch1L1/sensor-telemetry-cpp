@@ -1,0 +1,11 @@
+RingBufferTest.NewBufferIsEmpty 1 0.00684125
+RingBufferTest.PushPopPreservesFifoOrder 1 0.00835392
+RingBufferTest.WrapAroundKeepsOrder 1 0.00668833
+RingBufferTest.RepeatedWrapAroundManyCycles 1 0.00750496
+RingBufferTest.PushToFullBufferFailsAndKeepsContents 1 0.00544746
+RingBufferTest.CapacityOneBoundary 1 0.00524983
+RingBufferTest.PopFromEmptyReturnsNullopt 1 0.00532429
+RingBufferTest.ZeroCapacityThrows 1 0.00537512
+RingBufferTest.SupportsMoveOnlyTypes 1 0.00523825
+RingBufferTest.StoresSensorPackets 1 0.00554317
+---

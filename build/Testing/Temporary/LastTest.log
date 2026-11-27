@@ -1,0 +1,273 @@
+Start testing: Nov 26 21:54 -05
+----------------------------------------------------------
+1/10 Testing: RingBufferTest.NewBufferIsEmpty
+1/10 Test: RingBufferTest.NewBufferIsEmpty
+Command: "/Users/tomashomola/projects/sensor-telemetry-cpp/build/ring_buffer_test" "--gtest_filter=RingBufferTest.NewBufferIsEmpty" "--gtest_also_run_disabled_tests"
+Directory: /Users/tomashomola/projects/sensor-telemetry-cpp/build
+"RingBufferTest.NewBufferIsEmpty" start time: Nov 26 21:54 -05
+Output:
+----------------------------------------------------------
+Running main() from /Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RingBufferTest.NewBufferIsEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBufferTest
+[ RUN      ] RingBufferTest.NewBufferIsEmpty
+[       OK ] RingBufferTest.NewBufferIsEmpty (0 ms)
+[----------] 1 test from RingBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RingBufferTest.NewBufferIsEmpty" end time: Nov 26 21:54 -05
+"RingBufferTest.NewBufferIsEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: RingBufferTest.PushPopPreservesFifoOrder
+2/10 Test: RingBufferTest.PushPopPreservesFifoOrder
+Command: "/Users/tomashomola/projects/sensor-telemetry-cpp/build/ring_buffer_test" "--gtest_filter=RingBufferTest.PushPopPreservesFifoOrder" "--gtest_also_run_disabled_tests"
+Directory: /Users/tomashomola/projects/sensor-telemetry-cpp/build
+"RingBufferTest.PushPopPreservesFifoOrder" start time: Nov 26 21:54 -05
+Output:
+----------------------------------------------------------
+Running main() from /Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RingBufferTest.PushPopPreservesFifoOrder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBufferTest
+[ RUN      ] RingBufferTest.PushPopPreservesFifoOrder
+[       OK ] RingBufferTest.PushPopPreservesFifoOrder (0 ms)
+[----------] 1 test from RingBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RingBufferTest.PushPopPreservesFifoOrder" end time: Nov 26 21:54 -05
+"RingBufferTest.PushPopPreservesFifoOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: RingBufferTest.WrapAroundKeepsOrder
+3/10 Test: RingBufferTest.WrapAroundKeepsOrder
+Command: "/Users/tomashomola/projects/sensor-telemetry-cpp/build/ring_buffer_test" "--gtest_filter=RingBufferTest.WrapAroundKeepsOrder" "--gtest_also_run_disabled_tests"
+Directory: /Users/tomashomola/projects/sensor-telemetry-cpp/build
+"RingBufferTest.WrapAroundKeepsOrder" start time: Nov 26 21:54 -05
+Output:
+----------------------------------------------------------
+Running main() from /Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RingBufferTest.WrapAroundKeepsOrder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBufferTest
+[ RUN      ] RingBufferTest.WrapAroundKeepsOrder
+[       OK ] RingBufferTest.WrapAroundKeepsOrder (0 ms)
+[----------] 1 test from RingBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RingBufferTest.WrapAroundKeepsOrder" end time: Nov 26 21:54 -05
+"RingBufferTest.WrapAroundKeepsOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: RingBufferTest.RepeatedWrapAroundManyCycles
+4/10 Test: RingBufferTest.RepeatedWrapAroundManyCycles
+Command: "/Users/tomashomola/projects/sensor-telemetry-cpp/build/ring_buffer_test" "--gtest_filter=RingBufferTest.RepeatedWrapAroundManyCycles" "--gtest_also_run_disabled_tests"
+Directory: /Users/tomashomola/projects/sensor-telemetry-cpp/build
+"RingBufferTest.RepeatedWrapAroundManyCycles" start time: Nov 26 21:54 -05
+Output:
+----------------------------------------------------------
+Running main() from /Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RingBufferTest.RepeatedWrapAroundManyCycles
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBufferTest
+[ RUN      ] RingBufferTest.RepeatedWrapAroundManyCycles
+[       OK ] RingBufferTest.RepeatedWrapAroundManyCycles (0 ms)
+[----------] 1 test from RingBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RingBufferTest.RepeatedWrapAroundManyCycles" end time: Nov 26 21:54 -05
+"RingBufferTest.RepeatedWrapAroundManyCycles" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: RingBufferTest.PushToFullBufferFailsAndKeepsContents
+5/10 Test: RingBufferTest.PushToFullBufferFailsAndKeepsContents
+Command: "/Users/tomashomola/projects/sensor-telemetry-cpp/build/ring_buffer_test" "--gtest_filter=RingBufferTest.PushToFullBufferFailsAndKeepsContents" "--gtest_also_run_disabled_tests"
+Directory: /Users/tomashomola/projects/sensor-telemetry-cpp/build
+"RingBufferTest.PushToFullBufferFailsAndKeepsContents" start time: Nov 26 21:54 -05
+Output:
+----------------------------------------------------------
+Running main() from /Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RingBufferTest.PushToFullBufferFailsAndKeepsContents
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBufferTest
+[ RUN      ] RingBufferTest.PushToFullBufferFailsAndKeepsContents
+[       OK ] RingBufferTest.PushToFullBufferFailsAndKeepsContents (0 ms)
+[----------] 1 test from RingBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RingBufferTest.PushToFullBufferFailsAndKeepsContents" end time: Nov 26 21:54 -05
+"RingBufferTest.PushToFullBufferFailsAndKeepsContents" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: RingBufferTest.CapacityOneBoundary
+6/10 Test: RingBufferTest.CapacityOneBoundary
+Command: "/Users/tomashomola/projects/sensor-telemetry-cpp/build/ring_buffer_test" "--gtest_filter=RingBufferTest.CapacityOneBoundary" "--gtest_also_run_disabled_tests"
+Directory: /Users/tomashomola/projects/sensor-telemetry-cpp/build
+"RingBufferTest.CapacityOneBoundary" start time: Nov 26 21:54 -05
+Output:
+----------------------------------------------------------
+Running main() from /Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RingBufferTest.CapacityOneBoundary
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBufferTest
+[ RUN      ] RingBufferTest.CapacityOneBoundary
+[       OK ] RingBufferTest.CapacityOneBoundary (0 ms)
+[----------] 1 test from RingBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RingBufferTest.CapacityOneBoundary" end time: Nov 26 21:54 -05
+"RingBufferTest.CapacityOneBoundary" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: RingBufferTest.PopFromEmptyReturnsNullopt
+7/10 Test: RingBufferTest.PopFromEmptyReturnsNullopt
+Command: "/Users/tomashomola/projects/sensor-telemetry-cpp/build/ring_buffer_test" "--gtest_filter=RingBufferTest.PopFromEmptyReturnsNullopt" "--gtest_also_run_disabled_tests"
+Directory: /Users/tomashomola/projects/sensor-telemetry-cpp/build
+"RingBufferTest.PopFromEmptyReturnsNullopt" start time: Nov 26 21:54 -05
+Output:
+----------------------------------------------------------
+Running main() from /Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RingBufferTest.PopFromEmptyReturnsNullopt
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBufferTest
+[ RUN      ] RingBufferTest.PopFromEmptyReturnsNullopt
+[       OK ] RingBufferTest.PopFromEmptyReturnsNullopt (0 ms)
+[----------] 1 test from RingBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RingBufferTest.PopFromEmptyReturnsNullopt" end time: Nov 26 21:54 -05
+"RingBufferTest.PopFromEmptyReturnsNullopt" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: RingBufferTest.ZeroCapacityThrows
+8/10 Test: RingBufferTest.ZeroCapacityThrows
+Command: "/Users/tomashomola/projects/sensor-telemetry-cpp/build/ring_buffer_test" "--gtest_filter=RingBufferTest.ZeroCapacityThrows" "--gtest_also_run_disabled_tests"
+Directory: /Users/tomashomola/projects/sensor-telemetry-cpp/build
+"RingBufferTest.ZeroCapacityThrows" start time: Nov 26 21:54 -05
+Output:
+----------------------------------------------------------
+Running main() from /Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RingBufferTest.ZeroCapacityThrows
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBufferTest
+[ RUN      ] RingBufferTest.ZeroCapacityThrows
+[       OK ] RingBufferTest.ZeroCapacityThrows (0 ms)
+[----------] 1 test from RingBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RingBufferTest.ZeroCapacityThrows" end time: Nov 26 21:54 -05
+"RingBufferTest.ZeroCapacityThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: RingBufferTest.SupportsMoveOnlyTypes
+9/10 Test: RingBufferTest.SupportsMoveOnlyTypes
+Command: "/Users/tomashomola/projects/sensor-telemetry-cpp/build/ring_buffer_test" "--gtest_filter=RingBufferTest.SupportsMoveOnlyTypes" "--gtest_also_run_disabled_tests"
+Directory: /Users/tomashomola/projects/sensor-telemetry-cpp/build
+"RingBufferTest.SupportsMoveOnlyTypes" start time: Nov 26 21:54 -05
+Output:
+----------------------------------------------------------
+Running main() from /Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RingBufferTest.SupportsMoveOnlyTypes
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBufferTest
+[ RUN      ] RingBufferTest.SupportsMoveOnlyTypes
+[       OK ] RingBufferTest.SupportsMoveOnlyTypes (0 ms)
+[----------] 1 test from RingBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RingBufferTest.SupportsMoveOnlyTypes" end time: Nov 26 21:54 -05
+"RingBufferTest.SupportsMoveOnlyTypes" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: RingBufferTest.StoresSensorPackets
+10/10 Test: RingBufferTest.StoresSensorPackets
+Command: "/Users/tomashomola/projects/sensor-telemetry-cpp/build/ring_buffer_test" "--gtest_filter=RingBufferTest.StoresSensorPackets" "--gtest_also_run_disabled_tests"
+Directory: /Users/tomashomola/projects/sensor-telemetry-cpp/build
+"RingBufferTest.StoresSensorPackets" start time: Nov 26 21:54 -05
+Output:
+----------------------------------------------------------
+Running main() from /Users/tomashomola/projects/sensor-telemetry-cpp/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = RingBufferTest.StoresSensorPackets
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RingBufferTest
+[ RUN      ] RingBufferTest.StoresSensorPackets
+[       OK ] RingBufferTest.StoresSensorPackets (0 ms)
+[----------] 1 test from RingBufferTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"RingBufferTest.StoresSensorPackets" end time: Nov 26 21:54 -05
+"RingBufferTest.StoresSensorPackets" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 26 21:54 -05
